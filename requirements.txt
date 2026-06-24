@@ -1,0 +1,31 @@
+#Orchestration & AI
+
+langchain
+langgraph
+langchain-google-genai
+langchain-groq
+
+#Backend & API
+
+fastapi
+uvicorn[standard]
+python-dotenv
+
+#Data Harvesting & Web Scraping
+
+yfinance
+newspaper3k
+lxml
+requests
+tenacity
+
+#Database & Async ORM
+
+sqlalchemy
+asyncpg
+aiosqlite
+
+# Background Scheduling 
+
+apscheduler
+pytz

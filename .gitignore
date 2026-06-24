@@ -1,9 +1,11 @@
-
-.env
-
-node_modules/
-.venv/
-dist/
-
+# Python
 __pycache__/
+*.pyc
+.venv/
+.env
+jobs.sqlite
+
+# Node
+# node_modules/
+dist/
 .vite/
