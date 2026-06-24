@@ -122,3 +122,5 @@ MarketInsight/
 │   ├── index.html        # HTML layout shell
 │   └── vite.config.js    # Vite configuration & dev proxy
 ```
+
+Development Note: This project was developed and tested locally over several months. This repository was initialized and pushed in June 2026 to consolidate the final stable codebase and documentation.
