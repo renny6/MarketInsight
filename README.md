@@ -46,6 +46,13 @@ graph TD
 
 ---
 
+## Technical Challenges & Solutions
+
+### Handling API Limitations & Data Volatility
+A core challenge involved mitigating the data instability and access restrictions inherent to the `yfinance` library, which relies on free, rate-limited endpoints that frequently return `null` values or restrict access to critical metrics like Price-to-Earnings (P/E) ratios. Rather than allowing missing fields to degrade the user experience or trigger runtime exceptions, I engineered a resilient Python fallback layer. When primary endpoints fail to deliver complete data, custom algorithms intercept the response to dynamically compute missing indicators in real time—such as deriving the P/E ratio on the fly using live market prices and trailing Earnings Per Share (EPS). This architectural design elevates the application into a highly robust, fault-tolerant platform, distinguishing it from conventional tools that blindly rely on brittle API wrappers.
+
+---
+
 ## Getting Started
 
 ### Prerequisites
