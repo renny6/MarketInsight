@@ -4,6 +4,12 @@
 
 ---
 
+## 📸 Project Preview
+
+![MarketInsight Dashboard](assets/dashboard.png)
+
+---
+
 ## Tech Stack
 
 The application is split into a decoupled FastAPI backend and a responsive React frontend:
